@@ -11,7 +11,7 @@ end
 
 def square_array_collect(array)
   array.collect do |num|
-    num**2 
+    p num**2 
   end
 end
 square_array_collect(array)
