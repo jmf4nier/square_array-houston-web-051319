@@ -5,7 +5,7 @@ def square_array(array)
   array.each do |num|
     new_array << num**2
   end
-  p new_array
+  new_array
 end
 
 
@@ -14,4 +14,3 @@ def square_array_collect(array)
     num**2 
   end
 end
-new_array = square_array_collect(array)
