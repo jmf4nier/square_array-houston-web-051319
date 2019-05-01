@@ -11,7 +11,7 @@ end
 
 def square_array_collect(array)
   array.collect do |num|
-    puts num**2 
+    num**2 
   end
 end
-square_array_collect(array)
+new array = square_array_collect(array)
