@@ -14,4 +14,4 @@ def square_array_collect(array)
     num**2 
   end
 end
-new array = square_array_collect(array)
+new_array = square_array_collect(array)
